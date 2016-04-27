@@ -2,10 +2,11 @@
   float: left;
   margin-left: 25%;
   width: 75%;
-  padding: 3em 6em 3em 3em;
+  padding: 3em;
 }
 
 .about-redpanda--p {
+  width: 75%;
   margin-bottom: 2em;
   &:nth-child(2) {
     margin-top: 3em;
@@ -16,7 +17,7 @@
   margin: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .about-redpanda {
     float: none;
     margin: 0;
@@ -26,6 +27,7 @@
   }
 
   .about-redpanda--p {
+    width: 100%;
     margin-bottom: 2em;
     &:nth-child(2) {
       margin-top: 3em;
