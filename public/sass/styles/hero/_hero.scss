@@ -1,0 +1,18 @@
+.hero {
+  background-color: $ibm-green;
+}
+
+.hero--h1 {
+  color: white;
+}
+
+.hero--p {
+  color: white;
+}
+
+.hero--link {
+  color: white;
+  &:hover {
+    color: black;
+  }
+}

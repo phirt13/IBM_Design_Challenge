@@ -1,0 +1,40 @@
+.index-header {
+  position: fixed;
+  width: 100%;
+  padding: 2em 7em;
+  overflow: auto;
+  z-index: 10;
+}
+
+.index-header--h3 {
+  text-align: center;
+  float: left;
+}
+
+.index-navbar {
+  float: right;
+}
+
+.index-navbar--link {
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+@media (max-width: 680px) {
+  .index-header {
+    padding: 1em;
+  }
+
+  .index-header--h3 {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .index-navbar {
+    width: 100%;
+    padding: 1em 0;
+    ul {
+      text-align: center;
+    }
+  }
+}

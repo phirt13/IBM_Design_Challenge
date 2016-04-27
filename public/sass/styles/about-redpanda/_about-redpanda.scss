@@ -1,0 +1,15 @@
+.about-redpanda {
+  background-color: white;
+}
+
+.about-redpanda--link {
+  border: .1em solid $ibm-green;
+  color: $ibm-green;
+  &:visited {
+    color: $ibm-green;
+  }
+  &:hover {
+    background-color: $ibm-green;
+    color: white;
+  }
+}

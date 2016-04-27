@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: $open-sans;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+  }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  &:hover {
+    cursor: pointer;
+  }
+  &:visited {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+//// Components
+
+.link-button {
+  border: .1em solid white;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  width: 10em;
+  transition: all .3s linear;
+  &:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  &:visited {
+    color: white;
+  }
+}
+
+//// Utilites
+
+.bold {
+  font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overflow-auto {
+  overflow: auto;
+  position: relative;
+}

@@ -1,0 +1,14 @@
+.index-header {
+  background-color: $ibm-grey;
+}
+
+.index-header--h3 {
+  color: white;
+}
+
+.index-navbar--li {
+  color: $ibm-offWhite;
+  &:hover {
+    color: white;
+  }
+}

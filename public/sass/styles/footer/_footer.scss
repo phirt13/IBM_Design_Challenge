@@ -1,0 +1,18 @@
+.index-footer {
+  background-color: $ibm-grey;
+}
+
+.index-footer--link {
+  color: $ibm-offWhite;
+  &:hover {
+    color: white;
+  }
+}
+
+.index-footer--make-believe-icon {
+  background-color: $ibm-icon-grey;
+  transition: all .3s linear;
+  &:hover {
+    background-color: $ibm-green;
+  }
+}

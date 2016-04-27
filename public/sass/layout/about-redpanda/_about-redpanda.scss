@@ -1,0 +1,38 @@
+.about-redpanda {
+  float: left;
+  margin-left: 25%;
+  width: 75%;
+  padding: 3em 6em 3em 3em;
+}
+
+.about-redpanda--p {
+  margin-bottom: 2em;
+  &:nth-child(2) {
+    margin-top: 3em;
+  }
+}
+
+.about-redpanda--link {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .about-redpanda {
+    float: none;
+    margin: 0;
+    width: 100%;
+    display: block;
+    padding: 3em 1.75em;
+  }
+
+  .about-redpanda--p {
+    margin-bottom: 2em;
+    &:nth-child(2) {
+      margin-top: 3em;
+    }
+  }
+
+  .about-redpanda--link {
+    margin: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.redpanda-info {
+  padding: 3em 7em;
+}
+
+.redpanda-info--section-container {
+  overflow: auto;
+  &:nth-child(even) {
+    margin: 3em 0;
+  }
+}
+
+.redpanda-info--section-img {
+  width: 40%;
+  float: left;
+}
+
+.redpanda-info--img {
+  width: 100%;
+}
+
+.flickr-error--p {
+  text-align: center;
+  font-size: .8em;
+}
+
+.redpanda-info--section-p {
+  width: 60%;
+  float: left;
+  padding: 4em 0 4em 4em;
+}
+
+.redpanda-info--p {
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  .redpanda-info {
+    padding: 3em 1.75em 0 1.75em;
+  }
+
+  .redpanda-info--section-container {
+    &:nth-child(even) {
+      margin: 0;
+    }
+  }
+
+  .redpanda-info--section-img, .redpanda-info--section-p {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  .redpanda-info--p {
+    margin: 1em 0 3em 0;
+  }
+}

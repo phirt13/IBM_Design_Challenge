@@ -1,0 +1,28 @@
+.hero {
+  padding: 11em 0em 6em 0em;
+}
+
+.hero--h1 {
+  text-align: center;
+}
+
+.hero--p {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 2em 0;
+  width: 50%;
+
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 10.75em 1.75em 3em 1.75em;
+  }
+
+  .hero--p {
+    padding: 0;
+    width: 100%;
+    padding: 2em 0;
+  }
+}
