@@ -8,4 +8,6 @@ The site also uses Flickr's Api to GET photos from the sites public feed based o
 
 I was tasked to make this challenge in around 6hrs.  
 
-To see the deployed version nav to:
+To see the deployed version:
+
+[IBM FED Design Challenge](https://ibm-design-challenge.herokuapp.com/)
