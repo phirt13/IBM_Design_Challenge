@@ -1,4 +1,4 @@
-$(() => {
+$(function() {
 
   var flickrAPI = 'https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
   var $imagePlaceholders = $('.redpanda-info--img');
@@ -17,14 +17,14 @@ $(() => {
     url: flickrAPI,
     data: { tags: 'red panda', format: 'json' },
     dataType: 'json',
-    success: (data) => {
+    success: function(data) {
 
       (data.items.length === 0 || data.items.length < 3)
         ? $flickrErrParagraphs.html('What the DUCK??!! Sorry, Flickr down try again soon.')
         : runImagePopulate(data);
 
     },
-    error: (err) => {
+    error: function(err) {
 
       $flickrErrParagraphs.html('What the DUCK??!! Sorry, Flickr down try again soon.');
       throw err;
